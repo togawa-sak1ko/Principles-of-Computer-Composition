@@ -1,0 +1,122 @@
+D:/jizu/2/mips_tb.v {2 {vlog -work work -vopt D:/jizu/2/mips_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+** Warning: D:/jizu/2/mips_tb.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
+
+} {} {}} D:/jizu/2/splitter.v {1 {vlog -work work -vopt D:/jizu/2/splitter.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module splitter
+
+Top level modules:
+	splitter
+
+} {} {}} D:/jizu/2/rega.v {1 {vlog -work work -vopt D:/jizu/2/rega.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module rega
+
+Top level modules:
+	rega
+
+} {} {}} D:/jizu/2/datareg.v {1 {vlog -work work -vopt D:/jizu/2/datareg.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module datareg
+
+Top level modules:
+	datareg
+
+} {} {}} D:/jizu/2/regb.v {1 {vlog -work work -vopt D:/jizu/2/regb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module regb
+
+Top level modules:
+	regb
+
+} {} {}} D:/jizu/2/npc.v {1 {vlog -work work -vopt D:/jizu/2/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} D:/jizu/2/ext.v {1 {vlog -work work -vopt D:/jizu/2/ext.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} D:/jizu/2/alu.v {1 {vlog -work work -vopt D:/jizu/2/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/jizu/2/sb.v {1 {vlog -work work -vopt {D:\jizu\2\sb.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module sb
+
+Top level modules:
+	sb
+
+} {} {}} D:/jizu/2/im.v {1 {vlog -work work -vopt D:/jizu/2/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} D:/jizu/2/dm.v {1 {vlog -work work -vopt {D:\jizu\2\dm.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} D:/jizu/2/gpr.v {1 {vlog -work work -vopt D:/jizu/2/gpr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} D:/jizu/2/mips.v {1 {vlog -work work -vopt D:/jizu/2/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} D:/jizu/2/aluout.v {1 {vlog -work work -vopt D:/jizu/2/aluout.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module aluout
+
+Top level modules:
+	aluout
+
+} {} {}} D:/jizu/2/ir.v {1 {vlog -work work -vopt D:/jizu/2/ir.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} D:/jizu/2/pc.v {1 {vlog -work work -vopt D:/jizu/2/pc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} D:/jizu/2/controller.v {1 {vlog -work work -vopt D:/jizu/2/controller.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}}

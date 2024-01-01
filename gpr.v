@@ -16,8 +16,7 @@ input [1:0]regdst,
 input less,
 input carry,
 input addi,
-input bltzal,
-input bltzal_0
+input lb
 );
 reg [31:0]data[31:0];
 integer i;
@@ -26,7 +25,7 @@ reg [31:0]din;
 
 initial
 begin
-for(i=0;i<32;i=i+1) data[i]<=0;
+for(i=0;i<32;i=i+1) data[i]=0;
 end
 
 always @(posedge clk)begin
@@ -48,14 +47,16 @@ case(write_sel)
 din = aluout;
 end
 2'b01:begin
-din = dm_out;
+//din = dm_out;
+	if(lb) din = {{24{dm_out[7]}},dm_out[7:0]};
+	else din = dm_out;
 end
 2'b10:begin
 din = pc_4;
 end
 2'b11:begin
 if(less) din=32'h00000001;
-else din=32'h00000000;
+else din =32'h00000000;
 end
 default:;
 endcase
@@ -76,7 +77,6 @@ if(en)begin
 			data[wr]=din;
 			data[5'b11110]=1;
 		end
-		else if(bltzal==1&&bltzal_0==0) din=0;
 		else data[wr]=din;
 	end
 end

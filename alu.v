@@ -9,8 +9,7 @@ output wire [31:0]out_32,
 output wire [9:0]out_10,
 output reg zero,
 output reg carry,
-output reg less,
-output reg bltzal_0
+output reg less
 );
 reg [31:0]temp;
 reg [31:0]inb;
@@ -18,7 +17,6 @@ always@(*)
 begin
 zero=0;
 less=0;
-bltzal_0=0;
 case(alusrc)
 1'b0:inb=inb1;
 1'b1:inb=imm;
@@ -40,11 +38,7 @@ if(temp[31]==1) less = 1;
 if(temp == 0) zero = 1;
 end
 2'b10:temp=ina|inb;
-2'b11:begin
-if(ina[31] == 1)begin
-	bltzal_0=1;
-	end
-end
+
 default:;
 
 endcase
