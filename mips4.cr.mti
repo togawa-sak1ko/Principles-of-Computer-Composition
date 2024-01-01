@@ -1,0 +1,122 @@
+D:/jizu/4/pc.v {1 {vlog -work work -vopt D:/jizu/4/pc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} D:/jizu/4/ir.v {1 {vlog -work work -vopt D:/jizu/4/ir.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} D:/jizu/4/controller.v {1 {vlog -work work -vopt D:/jizu/4/controller.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/jizu/4/mips_tb.v {2 {vlog -work work -vopt D:/jizu/4/mips_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+** Warning: D:/jizu/4/mips_tb.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
+
+} {} {}} D:/jizu/4/splitter.v {1 {vlog -work work -vopt D:/jizu/4/splitter.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module splitter
+
+Top level modules:
+	splitter
+
+} {} {}} D:/jizu/4/rega.v {1 {vlog -work work -vopt D:/jizu/4/rega.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module rega
+
+Top level modules:
+	rega
+
+} {} {}} D:/jizu/4/regb.v {1 {vlog -work work -vopt D:/jizu/4/regb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module regb
+
+Top level modules:
+	regb
+
+} {} {}} D:/jizu/4/datareg.v {1 {vlog -work work -vopt D:/jizu/4/datareg.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module datareg
+
+Top level modules:
+	datareg
+
+} {} {}} D:/jizu/4/ext.v {1 {vlog -work work -vopt D:/jizu/4/ext.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} D:/jizu/4/npc.v {1 {vlog -work work -vopt D:/jizu/4/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} D:/jizu/4/alu.v {1 {vlog -work work -vopt D:/jizu/4/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/jizu/4/sb.v {1 {vlog -work work -vopt D:/jizu/4/sb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module sb
+
+Top level modules:
+	sb
+
+} {} {}} D:/jizu/4/im.v {1 {vlog -work work -vopt D:/jizu/4/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} D:/jizu/4/mips.v {1 {vlog -work work -vopt D:/jizu/4/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} D:/jizu/4/gpr.v {1 {vlog -work work -vopt D:/jizu/4/gpr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} D:/jizu/4/dm.v {1 {vlog -work work -vopt D:/jizu/4/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} D:/jizu/4/aluout.v {1 {vlog -work work -vopt D:/jizu/4/aluout.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module aluout
+
+Top level modules:
+	aluout
+
+} {} {}}
