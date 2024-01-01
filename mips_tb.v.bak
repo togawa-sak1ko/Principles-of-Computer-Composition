@@ -17,7 +17,7 @@ end
 always
 begin
 	#10 clk=~clk;	
-	#2 $display("%2d~%2d:%h %h %h %h %h %h %h %h",8*i,8*i+7,m.g.data[8*i+0],m.g.data[8*i+1],m.g.data[8*i+2],m.g.data[8*i+3],m.g.data[8*i+4],m.g.data[8*i+5],m.g.data[8*i+6],m.g.data[8*i+7]);
+	//#2 $display("%2d~%2d:%h %h %h %h %h %h %h %h",8*i,8*i+7,m.g.data[8*i+0],m.g.data[8*i+1],m.g.data[8*i+2],m.g.data[8*i+3],m.g.data[8*i+4],m.g.data[8*i+5],m.g.data[8*i+6],m.g.data[8*i+7]);
 end
 initial
 begin

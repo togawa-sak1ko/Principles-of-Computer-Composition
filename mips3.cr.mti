@@ -1,0 +1,141 @@
+D:/jizu/3/bridge.v {1 {vlog -work work -vopt {D:\jizu\3\bridge.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module bridge
+
+Top level modules:
+	bridge
+
+} {} {}} D:/jizu/3/sb.v {1 {vlog -work work -vopt D:/jizu/3/sb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module sb
+
+Top level modules:
+	sb
+
+} {} {}} D:/jizu/3/im.v {1 {vlog -work work -vopt {D:\jizu\3\im.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} D:/jizu/3/mips_tb.v {1 {vlog -work work -vopt {D:\jizu\3\mips_tb.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
+
+} {} {}} D:/jizu/3/dev_output.v {1 {vlog -work work -vopt {D:\jizu\3\dev_output.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dev_output
+
+Top level modules:
+	dev_output
+
+} {} {}} D:/jizu/3/datareg.v {1 {vlog -work work -vopt {D:\jizu\3\datareg.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module datareg
+
+Top level modules:
+	datareg
+
+} {} {}} D:/jizu/3/timer.v {1 {vlog -work work -vopt D:/jizu/3/timer.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module timer
+
+Top level modules:
+	timer
+
+} {} {}} D:/jizu/3/npc.v {1 {vlog -work work -vopt {D:\jizu\3\npc.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} D:/jizu/3/mips.v {1 {vlog -work work -vopt {D:\jizu\3\mips.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} D:/jizu/3/dm.v {1 {vlog -work work -vopt {D:\jizu\3\dm.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} D:/jizu/3/ext.v {1 {vlog -work work -vopt D:/jizu/3/ext.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} D:/jizu/3/aluout.v {1 {vlog -work work -vopt D:/jizu/3/aluout.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module aluout
+
+Top level modules:
+	aluout
+
+} {} {}} D:/jizu/3/alu.v {1 {vlog -work work -vopt D:/jizu/3/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/jizu/3/ir.v {1 {vlog -work work -vopt D:/jizu/3/ir.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} D:/jizu/3/pc.v {1 {vlog -work work -vopt D:/jizu/3/pc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} D:/jizu/3/controller.v {1 {vlog -work work -vopt {D:\jizu\3\controller.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/jizu/3/rega.v {1 {vlog -work work -vopt D:/jizu/3/rega.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module rega
+
+Top level modules:
+	rega
+
+} {} {}} D:/jizu/3/splitter.v {1 {vlog -work work -vopt D:/jizu/3/splitter.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module splitter
+
+Top level modules:
+	splitter
+
+} {} {}} D:/jizu/3/regb.v {1 {vlog -work work -vopt D:/jizu/3/regb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module regb
+
+Top level modules:
+	regb
+
+} {} {}} D:/jizu/3/gpr.v {1 {vlog -work work -vopt {D:\jizu\3\gpr.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}}

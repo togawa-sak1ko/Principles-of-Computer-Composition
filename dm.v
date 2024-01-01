@@ -8,7 +8,6 @@ output wire [31:0] dout
 reg [7:0] dm[1023:0];
 
 integer i;
-//assign addr_1={addr[9:2],{2'b00}};
 
 initial
 	begin

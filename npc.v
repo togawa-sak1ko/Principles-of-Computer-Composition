@@ -5,7 +5,10 @@ input [31:0]gpr,
 output reg [31:0]npc,
 output reg [31:0]pc_4_1,
 input [1:0]pc_sel,
-input zero
+input zero,
+input intreq,
+input [31:0]epc,
+input eret
 );
 reg [15:0]imm;
 reg [31:0]pc_4;
@@ -17,6 +20,10 @@ always @(*)begin
 imm = {imm1[15:0]};
 pc_4 = pc+4;
 pc_4_1 = pc;
+if(intreq)begin
+npc = 32'h00004180;
+end
+else if(eret==1) npc = epc;
 case(pc_sel)
 2'b00:begin
 npc=pc_4;

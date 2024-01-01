@@ -37,22 +37,22 @@ wire [5:0]func=din[5:0];
 parameter S0 = 0, S1=1 ,S2 = 2,S3=3,S4=4,S5=5,S6=6,S7=7,S8=8,S9=9;
 reg [3:0]current_state,next_state;
 
-wire lw = opcode[5]&~opcode[4]&~opcode[3]&~opcode[2]&opcode[1]&opcode[0];
-wire sw = opcode[5]&~opcode[4]&opcode[3]&~opcode[2]&opcode[1]&opcode[0];
-wire typer = ~opcode[5]&~opcode[4]&~opcode[3]&~opcode[2]&~opcode[1]&~opcode[0];
-wire addu = typer&func[5]&~func[4]&~func[3]&~func[2]&~func[1]&func[0];
-wire subu = typer&func[5]&~func[4]&~func[3]&~func[2]&func[1]&func[0];
-wire slt = typer&func[5]& ~func[4] & func[3] & ~func[2] & func[1] & ~func[0];
-wire jr = typer&~func[5]& ~func[4] & func[3] & ~func[2] & ~func[1] & ~func[0];
-wire ori = ~opcode[5]&~opcode[4] & opcode[3] & opcode[2] & ~opcode[1] & opcode[0];
-wire beq = ~opcode[5]&~opcode[4] & ~opcode[3] & opcode[2] & ~opcode[1] & ~opcode[0];
-wire lui = ~opcode[5]&~opcode[4] & opcode[3] & opcode[2] & opcode[1] & opcode[0];
-wire j = ~opcode[5]&~opcode[4] & ~opcode[3] & ~opcode[2] & opcode[1] & ~opcode[0];
-wire addi = ~opcode[5]&~opcode[4] & opcode[3] & ~opcode[2] & ~opcode[1] & ~opcode[0];
-wire addiu = ~opcode[5]&~opcode[4] & opcode[3] & ~opcode[2] & ~opcode[1] & opcode[0];
-wire jal = ~opcode[5]&~opcode[4] & ~opcode[3] & ~opcode[2] & opcode[1] & opcode[0];
-wire lb = opcode[5]&~opcode[4] & ~opcode[3] & ~opcode[2] & ~opcode[1] & ~opcode[0];
-wire sb = opcode[5]&~opcode[4] & opcode[3] & ~opcode[2] & ~opcode[1] & ~opcode[0];
+wire lw = opcode[5] & ~opcode[4] & ~opcode[3] & ~opcode[2] & opcode[1] & opcode[0];
+wire sw = opcode[5] & ~opcode[4] & opcode[3] & ~opcode[2] & opcode[1] & opcode[0];
+wire typer = ~opcode[5] & ~opcode[4] & ~opcode[3] & ~opcode[2] & ~opcode[1] & ~opcode[0];
+wire addu = typer & func[5] & ~func[4] & ~func[3] & ~func[2] & ~func[1] & func[0];
+wire subu = typer & func[5] & ~func[4] & ~func[3] & ~func[2] & func[1] & func[0];
+wire slt = typer & func[5] & ~func[4] & func[3] & ~func[2] & func[1] & ~func[0];
+wire jr = typer & ~func[5] & ~func[4] & func[3] & ~func[2] & ~func[1] & ~func[0];
+wire ori = ~opcode[5] & ~opcode[4] & opcode[3] & opcode[2] & ~opcode[1] & opcode[0];
+wire beq = ~opcode[5] & ~opcode[4] & ~opcode[3] & opcode[2] & ~opcode[1] & ~opcode[0];
+wire lui = ~opcode[5] & ~opcode[4] & opcode[3] & opcode[2] & opcode[1] & opcode[0];
+wire j = ~opcode[5] & ~opcode[4] & ~opcode[3] & ~opcode[2] & opcode[1] & ~opcode[0];
+wire addi = ~opcode[5] & ~opcode[4] & opcode[3] & ~opcode[2] & ~opcode[1] & ~opcode[0];
+wire addiu = ~opcode[5] & ~opcode[4] & opcode[3] & ~opcode[2] & ~opcode[1] & opcode[0];
+wire jal = ~opcode[5] & ~opcode[4] & ~opcode[3] & ~opcode[2] & opcode[1] & opcode[0];
+wire lb = opcode[5] & ~opcode[4] & ~opcode[3] & ~opcode[2] & ~opcode[1] & ~opcode[0];
+wire sb = opcode[5] & ~opcode[4] & opcode[3] & ~opcode[2] & ~opcode[1] & ~opcode[0];
 
 always@(posedge clk or posedge rst)
 begin
@@ -172,7 +172,7 @@ assign extop[1]=lui;
 assign write_sel[0]=lw||lb||slt||sw||sb;
 assign write_sel[1]=jal||slt;
 assign addi1=(addi==1)?1:0;
-assign en=((addu||subu||ori||lui||addi||addiu||slt)&s7)||((lw||lb)&s4)||(jal&s9);
+assign en=((addu||subu||ori||lui||addi||addiu||slt)&(current_state==S7))||((lw||lb)&s4)||(jal&s9);
 assign pcwr=s0||((jal||j)&s9)||((beq&zero)&s8)||(jr&s8);
 assign irwr=s0;
 assign lb1=(lb==1)?1:0;
